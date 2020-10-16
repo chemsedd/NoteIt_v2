@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="350.0" prefHeight="342.0" prefWidth="277.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controllers.Note">
+   <children>
+      <VBox prefHeight="280.0" prefWidth="240.0" spacing="20.0" styleClass="darker-gb" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton buttonType="RAISED" onAction="#newNote" prefHeight="37.0" prefWidth="283.0" text="New note +" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="orange-gradient" />
+               </styleClass>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#0088ff" />
+                        <Stop color="#ff0f97" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+            <JFXTextField fx:id="title" focusColor="#e30d00" prefHeight="37.0" prefWidth="220.0" promptText="Title..." styleClass="dark-gb" unFocusColor="#ffffff00">
+               <font>
+                  <Font name="Open Sans ExtraBold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXTextField>
+            <JFXTextArea fx:id="content" focusColor="#e30d00" prefHeight="166.0" prefWidth="238.0" promptText="Content here..." styleClass="dark-gb" unFocusColor="#4d4d4d00" wrapText="true">
+               <font>
+                  <Font name="Open Sans SemiBold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXTextArea>
+            <HBox prefHeight="32.0" prefWidth="266.0" spacing="5.0">
+               <children>
+                  <JFXButton buttonType="RAISED" defaultButton="true" onAction="#saveNote" prefHeight="31.0" prefWidth="124.0" text="Save">
+                     <font>
+                        <Font name="Open Sans Bold" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="orange-gradient" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#0088ff" />
+                              <Stop color="#ff0f97" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#clearNote" prefHeight="32.0" prefWidth="65.0" text="Clear">
+                     <font>
+                        <Font name="Open Sans Bold" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="orange-gradient-outline" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ff670f" />
+                              <Stop color="#ff0f97" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#closeNote" prefHeight="32.0" prefWidth="54.0" text="Close">
+                     <font>
+                        <Font name="Open Sans Bold" size="12.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="orange-gradient-outline" />
+                     </styleClass>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ff670f" />
+                              <Stop color="#ff0f97" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+   <effect>
+      <DropShadow blurType="GAUSSIAN" color="#545454" height="41.76" radius="20.38" width="41.76" />
+   </effect>
+</AnchorPane>

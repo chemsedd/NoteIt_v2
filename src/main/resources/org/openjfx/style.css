@@ -1,0 +1,35 @@
+.btn {
+    -fx-background-radius: 40px;
+}
+
+.success {
+    -fx-background-color: #7cb342;
+    -fx-text-fill: #fafafa;
+}
+
+.primary {
+    -fx-background-color: #0277bd;
+    -fx-text-fill: #fafafa;
+}
+
+.orange-gradient-outline {
+    -fx-border-color: linear-gradient(to right, #ff670f 0%,#ff0f97 100%);
+    -fx-border-width: 3px;
+    -fx-border-radius: 30px;
+    -fx-text-fill: #fafafa;
+}
+
+.orange-gradient {
+    -fx-background-color: linear-gradient(to right, #ff670f 0%,#ff0f97 100%);
+    -fx-text-fill: #fafafa;
+}
+
+.dark-gb {
+    -fx-background-color: #262626 ;
+    -fx-text-fill: #fafafa;
+}
+
+.darker-gb {
+    -fx-background-color: #111111;
+    -fx-text-fill: #fafafa;
+}

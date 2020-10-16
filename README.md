@@ -9,6 +9,11 @@ NoteIt is a small app for creating notes and important things to remember 📝
 - **gradle**: .
 - **Intellij Idea**: A powerful IDE for creating Java and Android apps, made by [Jetbrains](https://www.jetbrains.com/)
 
+# Screenshots
+
+The GUI is simple and moder. The note is made small so that many notes can fit on the screen.
+
+![NoteIt GUI](screenshots/noteIt-gui.jpg)
 
 # Contributing
 Contributions are welcome, feel free to submit bugs, enhancement or refactoring.

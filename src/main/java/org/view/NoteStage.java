@@ -10,8 +10,8 @@ import java.io.IOException;
 public class NoteStage extends Stage {
 
     public NoteStage() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("build/resources/main/org/openjfx/note.fxml"));
-        root.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        Parent root = FXMLLoader.load(getClass().getResource("../openjfx/note.fxml"));
+        root.getStylesheets().add(getClass().getResource("../openjfx/style.css").toExternalForm());
         this.setTitle("NoteIt");
         this.initStyle(StageStyle.DECORATED);
         this.setAlwaysOnTop(true);

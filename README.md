@@ -1,3 +1,6 @@
+![](https://img.shields.io/github/stars/chemsedd/NoteIt_v2?style=for-the-badge)
+![](https://img.shields.io/badge/author-chemsedd-dd0000?style=for-the-badge)
+
 # NoteIt 2
 
 NoteIt is a small app for creating notes and important things to remember 📝
@@ -18,5 +21,5 @@ The GUI is simple and moder. The note is made small so that many notes can fit o
 # Contributing
 Contributions are welcome, feel free to submit bugs, enhancement or refactoring.
 
-# Author
-- Main author: [Chems Eddine Senoussi](https://github.com/chemsedd)
+----------
+**Main author:** [Chems Eddine Senoussi](https://github.com/chemsedd)
